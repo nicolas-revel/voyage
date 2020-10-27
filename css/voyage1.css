@@ -74,7 +74,6 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  border-bottom: #463333 solid 2px;
 }
 
 table {
@@ -127,8 +126,9 @@ table td {
   text-align: right;
   font-family: "Raleway", sans-serif;
   color: #463333;
-  font-size: 15px;
+  font-size: 16px;
   margin: 3em 2em 0 2em;
+  line-height: 25px;
 }
 
 #text_europe {
@@ -148,6 +148,7 @@ table td {
   color: #463333;
   font-family: "Abril Fatface", cursive;
   margin-left: 2em;
+  margin-top: -0.1em;
 }
 
 #liste_pays ul,
@@ -173,7 +174,8 @@ li {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
+  background-color: #fff0f0;
 }
 
 #serbia_logo {
@@ -265,4 +267,13 @@ li {
   font-family: "Raleway", sans-serif;
   border-radius: 5px;
   margin-left: 4.5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.liens {
+  color: #178374;
+  text-decoration: none;
 }
