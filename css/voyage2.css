@@ -4,6 +4,18 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #835858;
+  animation: apparition_main 1500ms linear forwards;
+}
+
+@keyframes apparition_main {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 #afrique {
@@ -22,7 +34,7 @@ main {
   margin: 0 30px;
   padding: 0 15px;
   width: 40%;
-  background-color: #ffffffee;
+  background-color: #fff0f0ee;
   display: flex;
   flex-direction: column;
   z-index: 7;
@@ -39,27 +51,103 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 2em;
-  width: 80%;
+  width: 70%;
   align-self: flex-end;
+  margin-right: 10px;
 }
 
-#magreb {
+#afrique_nord {
   margin: 0;
-  height: 30em;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff0f0;
 }
 
-#maghreb h2 {
-  margin-left: 2.5em;
+#afrique_nord h2 {
+  align-self: flex-start;
+  margin: 1em 0px 10px 2.5em;
   font-size: 3em;
   font-family: "Raleway", sans-serif;
 }
 
-#maghreb div {
+#afrique_nord div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 85%;
+  height: 100%;
+}
+
+#afrique_nord img {
+  padding: 50px;
+  height: 300px;
+}
+
+#afrique_nord p {
+  font-size: 1.7em;
+  width: 50%;
+  font-family: "Raleway", sans-serif;
+}
+
+#afrique_nord a {
+  text-decoration: none;
+  color: #835858;
+  font-weight: bold;
+}
+
+#egypt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#egypt #bandeausup,
+#egypt #bandeauinf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20em;
+}
+
+#egypt #bandeausup {
+  background-image: url(/img/afrique/backgroundegypt.jpg);
+  background-position: top 45% right 50%;
+  background-size: cover;
+}
+
+#egypt #container_titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 5em;
+  backdrop-filter: blur(3px);
+}
+
+#egypt #container_titre h2 {
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+
+#egypt #bandeauinf {
+  background-color: #fff0f0;
+}
+
+#egypt #bandeauinf p {
+  width: 70%;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+}
+
+#egypt a {
+  text-decoration: none;
+  color: #835858;
+  font-weight: bold;
 }
