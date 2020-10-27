@@ -1,0 +1,11 @@
+main {
+  margin: 0;
+}
+
+#afrique {
+  background-image: url("img/afrique/backgroundafrique.jpg");
+}
+
+#afrique div {
+  background: transparent;
+}
