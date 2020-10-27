@@ -1,11 +1,65 @@
 main {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #afrique {
-  background-image: url("img/afrique/backgroundafrique.jpg");
+  margin: 0;
+  height: 40em;
+  background-image: url(/img/afrique/backgroundafrique.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  filter: saturate(170%);
 }
 
 #afrique div {
-  background: transparent;
+  margin: 0 30px;
+  padding: 0 15px;
+  width: 40%;
+  background-color: #ffffffee;
+  display: flex;
+  flex-direction: column;
+  z-index: 7;
+}
+
+#afrique h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 4em;
+  margin: 2em 0px 1em 30px;
+}
+
+#afrique p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  width: 80%;
+  align-self: flex-end;
+}
+
+#magreb {
+  margin: 0;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#maghreb h2 {
+  margin-left: 2.5em;
+  font-size: 3em;
+  font-family: "Raleway", sans-serif;
+}
+
+#maghreb div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
