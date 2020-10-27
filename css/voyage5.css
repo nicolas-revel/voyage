@@ -1,0 +1,22 @@
+main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #835858;
+  animation: apparition_main 1500ms linear forwards;
+}
+
+@keyframes apparition_main {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+#pres_perso {
+}

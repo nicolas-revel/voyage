@@ -21,7 +21,7 @@ main {
 #afrique {
   margin: 0;
   height: 40em;
-  background-image: url(/img/afrique/backgroundafrique.jpg);
+  background-image: url(../img/afrique/backgroundafrique.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -116,7 +116,7 @@ main {
 }
 
 #egypt #bandeausup {
-  background-image: url(/img/afrique/backgroundegypt.jpg);
+  background-image: url(../img/afrique/backgroundegypt.jpg);
   background-position: top 45% right 50%;
   background-size: cover;
 }
