@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "russie";
+  src: url("../policerussie/kremlin.ttf");
+}
+
+/*CSS HEADER RUSSIE*/
+
+header {
+  background-color: transparent;
+}
+
+header img {
+  display: none;
+}
+
+#headerrussia {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+#container_header {
+  background-image: url(../img/russie/basile.jpg);
+  opacity: 90%;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+#background_nav {
+  background-color: #be0f06;
+  margin-left: 40em;
+}
+
+#headerrussia nav {
+  margin: 3em 0 0 0;
+  width: 45%;
+  font-family: "russie";
+}
+
+#headerrussia nav span {
+  color: white;
+  font-size: 18px;
+  font-family: "russie";
+}
+
+#headerrussia nav li {
+  padding: 1em 0 1em 0;
+  font-size: 18px;
+  margin: 0 20px 0 20px;
+}
+
+#headerrussia nav i {
+  font-size: 0.4em;
+}
+
+#head nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#headerrussia nav li,
+#headerrussia #link_contact {
+  background: linear-gradient(to left, transparent 50%, #5f0f0b 50%) right;
+  background-size: 300%;
+  transition: 400ms ease-in-out;
+}
+
+#headerrussia nav li:hover,
+#headerrussia #link_contact:hover {
+  background-position: left;
+  color: white;
+}
+
+#premier_lien {
+  padding-top: 1em;
+}
+
+#logoemnifa {
+  width: 20em;
+}
+
+/* CSS DROPDOWN*/
+
+.dropdown1 {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  top: 1.2em;
+  left: -0.2px;
+  background-color: #5f0f0b;
+  min-width: 30%;
+  z-index: 5;
+}
+
+.dropdown-content1 a {
+  background: #5f0f0b;
+  width: 30%;
+  padding: 0.5em 25px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown2 {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  top: 1.2em;
+  left: -0.2px;
+  background-color: #5f0f0b;
+  min-width: 30%;
+  z-index: 5;
+}
+
+.dropdown-content2 a {
+  background: #5f0f0b;
+  width: 30%;
+  padding: 0.5em 21px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
