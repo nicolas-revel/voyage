@@ -1,0 +1,149 @@
+main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #463333;
+  background-color: #835858;
+  animation: apparition_main 1000ms linear forwards;
+}
+
+@keyframes apparition_main {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+#pres_perso {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px;
+  border: solid 5px;
+  border-radius: 30px;
+  background-color: #fff0f0;
+  font-family: "Raleway", sans-serif;
+}
+
+#pic_social,
+#nom_prenom_para,
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 20px 30px;
+}
+
+#photopersonico {
+  height: 220px;
+  border-radius: 30px;
+  border: 3px solid #463333;
+}
+
+#pic_social div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 10px 0px 10px;
+  border-top: solid #463333;
+  width: 100%;
+}
+
+.logoreseaux {
+  height: 40px;
+}
+
+#nom_prenom_para {
+  width: 45%;
+}
+
+#nom_prenom_para h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3em;
+  height: 100%;
+}
+
+#nom_prenom_para p {
+  font-size: 1.8em;
+}
+
+#hobbies {
+  width: 20%;
+}
+
+#hobbies h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+  height: 100%;
+}
+
+#hobbies li {
+  list-style-type: disc;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+#pres_voyages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff0f0;
+}
+
+#pres_voyages h2 {
+  font-size: 4em;
+  align-self: flex-start;
+  margin: 0.5em 10%;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+#container_egypt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#container_egypt img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+#container_egypt div {
+  width: 45%;
+  margin: 1.5em;
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Dosis", sans-serif;
+}
+
+#container_egypt a {
+  text-decoration: none;
+  color: #463333;
+  background: linear-gradient(to left, transparent 50%, #ebd4d4 50%) right;
+  background-size: 230%;
+  transition: 400ms ease-in-out;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#container_egypt a:hover {
+  background-position: left;
+}
