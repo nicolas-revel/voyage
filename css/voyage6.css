@@ -3,6 +3,11 @@
   src: url("../policerussie/kremlin.ttf");
 }
 
+@font-face {
+  font-family: "propagande";
+  src: url("../policerussie/propaganda.ttf");
+}
+
 /*CSS HEADER RUSSIE*/
 
 header {
@@ -138,4 +143,32 @@ header img {
 
 .dropdown2:hover .dropdown-content2 {
   display: block;
+}
+
+/*SECTION RUSSIE*/
+
+#russie {
+  display: flex;
+  flex-direction: row;
+  background-color: #fdfcff;
+  background-color: #fdfcff;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23be0f06' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  height: 20em;
+}
+
+#poupeerusse {
+  width: 17em;
+}
+
+#poupee {
+  margin: 1em 0 0 -4em;
+}
+#title_russie {
+  background-color: white;
+  padding-left: 2em;
+  margin: 0 60em 0 5em;
+}
+#title_russie h1 {
+  font-family: "propagande";
+  font-size: 4em;
 }
