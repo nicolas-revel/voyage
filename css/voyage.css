@@ -138,3 +138,154 @@ footer #lien_contact {
   margin-top: 10px;
 }
 /* Fin de la mise forme du Footer */
+main{
+  position: relative;
+}
+.worldmap_img{
+  width: 90vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fas{
+  font-size: 30px;
+}
+#Serbie{
+  position: absolute;
+  top: 31%;
+  right: 50%;
+  color: #463333;
+}
+#Russie{
+  position: absolute;
+  top: 23%;
+  right:46%;
+color:#463333
+}
+#Egypte{
+  position: absolute;
+  top: 43%;
+  right: 49%;
+  color: #463333;
+}
+
+#hide_egypte, #hide_russie, #hide_serbie{
+  display: none;
+}
+#hide_russie{
+  position: absolute;
+  top: 23%;
+  right:46%; 
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+#Russie:hover + #hide_russie {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  background-color: #463333;
+  padding: 10px;
+  color: #32A993;
+  border-radius: 5px;
+  top: 23%;
+  right:36%;
+}
+
+#lien_ru {
+  height: 100%;
+  width: 100%;
+}
+
+#hide_serbie{
+  position: absolute;
+  top: 31%;
+  right: 50%;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+#hide_serbie:hover{
+  position: absolute;
+  top: 31%;
+  right: 50%;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #463333;
+  padding: 10px;
+  color: #32A993;
+  border-radius: 5px;
+}
+#hide_russie:hover{
+  position: absolute;
+  top: 23%;
+  right:36%;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #463333;
+  padding: 10px;
+  color: #32A993;
+  border-radius: 5px;
+}
+
+#hide_egypte:hover{
+  position: absolute;
+  top: 43%;
+  right: 49%;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #463333;
+  padding: 10px;
+  color: #32A993;
+  border-radius: 5px;
+}
+
+#Serbie:hover + #hide_serbie{
+  display: block;
+  display: flex;
+  flex-direction: column;
+  background-color: #463333;
+  padding: 10px;
+  color: #32A993;
+  border-radius: 5px;
+}
+
+#hide_egypte{
+position:absolute;
+top: 43%;
+right: 49%;
+align-items: center;
+font-family: "Raleway", sans-serif;
+}
+
+button{
+  font-family: "Raleway", sans-serif;
+  background-color: #32A993 ;
+}
+#Egypte:hover + #hide_egypte{
+display: block;
+display: flex;
+flex-direction: column;
+background-color: #463333;
+padding: 10px;
+color: #32A993;
+border-radius: 5px;
+position: absolute;
+top: 43%;
+right: 49%;
+
+}
+
+.photo_accueil{
+  width: 100px;
+}
+
+/* Fin du CSS Accueil */
+
+
+
