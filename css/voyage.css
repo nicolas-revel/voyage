@@ -175,7 +175,7 @@ color:#463333
 #hide_russie{
   position: absolute;
   top: 23%;
-  right:34%;
+  right:46%; 
   align-items: center;
   font-family: "Raleway", sans-serif;
 }
@@ -189,7 +189,7 @@ color:#463333
   color: #32A993;
   border-radius: 5px;
   top: 23%;
-  right:34%;
+  right:36%;
 }
 
 #lien_ru {
@@ -220,7 +220,7 @@ color:#463333
 #hide_russie:hover{
   position: absolute;
   top: 23%;
-  right:34%;
+  right:36%;
   align-items: center;
   font-family: "Raleway", sans-serif;
   display: flex;
@@ -284,4 +284,8 @@ right: 49%;
 .photo_accueil{
   width: 100px;
 }
+
+/* Fin du CSS Accueil */
+
+
 
