@@ -5,7 +5,17 @@
 
 @font-face {
   font-family: "propagande";
-  src: url("../policerussie/propaganda.ttf");
+  src: url("../policerussie/Ukraine\ font.ttf");
+}
+
+@font-face {
+  font-family: "algorie";
+  src: url("../policerussie/alghoriestd.ttf");
+}
+
+@font-face {
+  font-family: "russe3d";
+  src: url("../policerussie/StrengthenFilled.ttf");
 }
 
 /*CSS HEADER RUSSIE*/
@@ -153,22 +163,52 @@ header img {
   background-color: #fdfcff;
   background-color: #fdfcff;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23be0f06' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
-  height: 20em;
-}
-
-#poupeerusse {
-  width: 17em;
+  height: 23em;
 }
 
 #poupee {
-  margin: 1em 0 0 -4em;
-}
-#title_russie {
+  margin: 1.2em 0 0 1.7em;
   background-color: white;
-  padding-left: 2em;
-  margin: 0 60em 0 5em;
+  width: 14em;
+  transform: rotate(-10deg);
 }
+
+#title_russie {
+  background-color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: -3em 60em 0 -1em;
+  transform: rotate(-15deg);
+}
+
 #title_russie h1 {
   font-family: "propagande";
-  font-size: 4em;
+  font-size: 5em;
+  color: white;
+}
+
+#presentation {
+  font-size: 16px;
+  background-color: white;
+  margin: -9em 8em 0 -0.5em;
+  padding: 2px 0 2px 10px;
+  transform: rotate(-15deg);
+  width: 55%;
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+}
+
+#text-tourism {
+  font-size: 16px;
+  background-color: white;
+  margin: -1.5em 8em 0 0;
+  padding: 2px 0 2px 10px;
+  transform: rotate(-15deg);
+  width: 70%;
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+}
+
+#poupee_russe {
+  width: 15em;
 }
