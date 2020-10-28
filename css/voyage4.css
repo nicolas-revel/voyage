@@ -1,0 +1,112 @@
+/* voyage4.html */
+
+h1{
+    text-align:center;
+    font-family: 'Vampiro One', cursive;
+    text-align: center ;
+  }
+
+  .billet{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border: solid;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .billet img{
+  width: 12vw;
+  margin-left: 10px;
+  border: solid;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+  }
+  
+  .photo_billet{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+  }
+  .photo_billet img{
+    border-radius: 8px;
+  }
+  .social{
+    border-top: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 50px;
+  }
+  
+  .social a{
+    text-decoration: none;
+    color: #463333;
+  }
+  
+  .texte1{
+  
+    width: 50%;
+  }
+  
+  .texteliste{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: x-large;
+  }
+  
+  .titre_voyage{
+    background-image: url(../img/voyage4/belgrade.jpg);
+    width: 100%;
+    height: 20em;
+    background-size: cover;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .titre_voyage h1{
+    font-size: 50px;
+  }
+  .para_serbie{
+    margin-right: 10px;
+    margin-left: 10px ;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+    width: 90%;
+  }
+  
+  
+  .para_serbie img{
+    width: 20vw;
+  }
+  .voyage_serbie img{
+      width:20vw;
+  }
+  .voyage_serbie{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 30px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+
+    #bouton_serbie{
+        font-size: 24px;
+        padding: 14px 40px;
+        background-color: #f1f1f1;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        ;
+    }
