@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "algorie";
-  src: url("../policerussie/alghoriestd.ttf");
+  src: url("../policerussie/Soviet2e.ttf");
 }
 
 /*CSS HEADER RUSSIE*/
@@ -70,19 +70,19 @@ header img {
 }
 
 #headerrussia nav li,
-#headerrussia #link_contact {
+#headerrussia #link_contact #headerrussia #link_acceuil {
   background: linear-gradient(to left, transparent 50%, #5f0f0b 50%) right;
   background-size: 300%;
   transition: 400ms ease-in-out;
 }
 
 #headerrussia nav li:hover,
-#headerrussia #link_contact:hover {
+#headerrussia #link_contact:hover #headerrussia #link_accueil:hover {
   background-position: left;
   color: white;
 }
 
-#premier_lien {
+.premier_lien {
   padding-top: 1em;
 }
 
@@ -266,12 +266,17 @@ header img {
 
 #voyage_emma {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 #moscou_all {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* GALERIE PHOTO*/
@@ -345,19 +350,63 @@ header img {
   margin: 3em 0 0 2em;
 }
 
-#moscou_all p {
+#moscou_all p,
+#video p {
   font-family: "Courier Prime", monospace;
   font-size: 13px;
   margin-left: 3em;
   margin-right: 3em;
+  line-height: 1.5em;
 }
 
-#voyage_emma h3 {
-  font-family: "propagande";
-  margin: 3em 0 0 2em;
-  font-size: 1em;
+#voyage_emma h3,
+#video h3 {
+  font-family: "algorie";
+  margin: 0.5em 2em 0 2em;
+  font-size: 1.3em;
 }
 
+.right {
+  text-align: right;
+}
+
+#video h4 {
+  font-family: "algorie";
+  font-size: 1.3em;
+  color: white;
+  background-color: #5f0f0b;
+  width: 7em;
+  height: 2em;
+  margin-left: 3em;
+  border-radius: 10px;
+  padding: 0.5em 0 0 1em;
+}
+
+#video a {
+  color: white;
+  text-decoration: none;
+}
+
+#video h4:hover {
+  background-color: #925552;
+}
+/*CSS VIDEO*/
+
+#video {
+  display: flex;
+  flex-direction: row;
+}
+
+#video_moscou {
+  background-color: rgb(230, 230, 169);
+  width: 70%;
+  height: 25em;
+}
+
+iframe {
+  padding: 3em 2em 0 2em;
+  border: 0;
+}
 /* CSS FOOTER */
 
 footer {
