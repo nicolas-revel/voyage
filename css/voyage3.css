@@ -4,8 +4,9 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #fff0f0;
   color: #463333;
-  background-color: #835858;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23463333' fill-opacity='0.51'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   animation: apparition_main 1000ms linear forwards;
 }
 
@@ -22,85 +23,94 @@ main {
 #presentation_emma {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 90%;
   margin: 30px;
-  border: solid 5px;
-  border-radius: 30px;
-  background-color: #fff0f0;
+  border-radius: 20px;
+  box-shadow: 0.5px 2px 3px 0 #463333;
+  background-color: white;
   font-family: "Raleway", sans-serif;
 }
 
 #carte_pres,
-#nom_prenom_para,
+#identite,
 #hobbies {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: normal;
   height: 100%;
-  margin: 20px 30px;
+  margin: 20px 20px;
 }
 
 #portrait_emma {
-  height: 220px;
+  height: 200px;
+  border-radius: 10px;
 }
 
-#pic_social div {
+#carte_pres div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 20px;
-  padding: 20px 10px 0px 10px;
-  border-top: solid #463333;
+  padding: 5px 5px 0px 7px;
   width: 100%;
 }
 
-.logoreseaux {
-  height: 40px;
+#reseaux i {
+  font-size: 25px;
+  color: #1d5c59;
 }
 
-#nom_prenom_para {
+#identite {
   width: 45%;
 }
 
-#nom_prenom_para h2 {
+#identite h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 3em;
   height: 100%;
+  font-family: "Permanent Marker", cursive;
 }
 
-#nom_prenom_para p {
-  font-size: 1.8em;
+#identite p {
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
-#hobbies {
+#voyages {
   width: 20%;
 }
 
-#hobbies h2 {
+#voyages i {
+  padding-right: 8px;
+  font-size: 25px;
+}
+
+#voyages h2 {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 2.5em;
+  font-size: 1.4em;
   height: 100%;
+  font-family: "Shadows Into Light", cursive;
 }
 
-#hobbies li {
-  list-style-type: disc;
-  padding: 10px;
-  font-size: 1.5em;
+#voyages li {
+  list-style-type: square;
+  padding: 4px;
+  font-size: 1em;
 }
 
-#pres_voyages {
+#voyage_russie {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  background-color: #fff0f0;
+  height: 30em;
+  background-image: url(../img/Emma/photo2.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 #pres_voyages h2 {
