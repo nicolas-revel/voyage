@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+#entete_egypt {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30em;
+  background-image: url(../img/egypt/bckgentete.jpg);
+  background-size: cover;
+  background-position: top 25% right 50%;
+  font-family: "Spartan", sans-serif;
+}
+
+#entete_egypt h1 {
+  align-self: flex-start;
+  font-size: 5em;
+  margin-left: 6%;
+  margin-top: 6%;
+  font-weight: 400;
+  color: #835858;
+  text-shadow: black;
+}
+
+#entete_egypt p {
+  height: calc(100% - 200px);
+  width: calc(45% - 200px);
+  padding: 100px;
+  background-color: #fff0f0d8;
+  font-size: 1.8em;
+  line-height: 2em;
+  color: #835858;
+}
+
+#histoire {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #835858;
+  color: #fff0f0;
+}
+
+#histoire h2 {
+  margin-left: 10%;
+  margin-top: 5%;
+  align-self: flex-start;
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+.para_contenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px 0px;
+  font-weight: 200;
+  line-height: 2em;
+  font-size: 1.2em;
+  font-family: "Spartan", sans-serif;
+}
+
+.para_contenu img {
+  width: 35%;
+}
+
+.para_contenu p {
+  width: 60%;
+}
+
+#infos_résumés table,
+td {
+  border: 3px solid #835858;
+  border-collapse: collapse;
+}
