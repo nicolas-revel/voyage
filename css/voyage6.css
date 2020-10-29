@@ -1,0 +1,438 @@
+@font-face {
+  font-family: "russie";
+  src: url("../policerussie/kremlin.ttf");
+}
+
+@font-face {
+  font-family: "propagande";
+  src: url("../policerussie/Ukraine\ font.ttf");
+}
+
+@font-face {
+  font-family: "algorie";
+  src: url("../policerussie/Soviet2e.ttf");
+}
+
+/*CSS HEADER RUSSIE*/
+
+header {
+  background-color: transparent;
+}
+
+header img {
+  display: none;
+}
+
+#headerrussia {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+#container_header {
+  background-image: url(../img/russie/basile.jpg);
+  opacity: 90%;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+#background_nav {
+  background-color: #be0f06;
+  margin-left: 40em;
+}
+
+#headerrussia nav {
+  margin: 3em 0 0 0;
+  width: 45%;
+  font-family: "russie";
+}
+
+#headerrussia nav span {
+  color: white;
+  font-size: 18px;
+  font-family: "russie";
+}
+
+#headerrussia nav li {
+  padding: 1em 0 1em 0;
+  font-size: 18px;
+  margin: 0 20px 0 20px;
+}
+
+#headerrussia nav i {
+  font-size: 0.4em;
+}
+
+#head nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#headerrussia nav li,
+#headerrussia #link_contact #headerrussia #link_acceuil {
+  background: linear-gradient(to left, transparent 50%, #5f0f0b 50%) right;
+  background-size: 300%;
+  transition: 400ms ease-in-out;
+}
+
+#headerrussia nav li:hover,
+#headerrussia #link_contact:hover #headerrussia #link_accueil:hover {
+  background-position: left;
+  color: white;
+}
+
+.premier_lien {
+  padding-top: 1em;
+}
+
+#logoemnifa {
+  width: 20em;
+}
+
+/* CSS DROPDOWN*/
+
+.dropdown1 {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  top: 1.2em;
+  left: -0.2px;
+  background-color: #5f0f0b;
+  min-width: 30%;
+  z-index: 5;
+}
+
+.dropdown-content1 a {
+  background: #5f0f0b;
+  width: 30%;
+  padding: 0.5em 25px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown2 {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  top: 1.2em;
+  left: -0.2px;
+  background-color: #5f0f0b;
+  min-width: 30%;
+  z-index: 5;
+}
+
+.dropdown-content2 a {
+  background: #5f0f0b;
+  width: 30%;
+  padding: 0.5em 21px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+/*SECTION RUSSIE*/
+
+#russie {
+  display: flex;
+  flex-direction: row;
+  background-color: #fdfcff;
+  background-color: #fdfcff;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23be0f06' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  height: 23em;
+}
+
+#poupee {
+  margin: 1.2em 0 0 1.7em;
+  background-color: white;
+  width: 14em;
+  transform: rotate(-10deg);
+}
+
+#title_russie {
+  background-color: black;
+  padding-left: 1em;
+  padding-right: 2em;
+  margin: -3em 0 0 -1em;
+  transform: rotate(-15deg);
+  width: 20em;
+}
+
+#title_russie h1 {
+  font-family: "propagande";
+  font-size: 5em;
+  color: white;
+}
+
+#presentation {
+  font-size: 16px;
+  background-color: white;
+  margin: -8em 8em 0 -0.5em;
+  padding: 2px 0 2px 10px;
+  transform: rotate(-15deg);
+  width: 55%;
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+}
+
+#text-tourism {
+  font-size: 16px;
+  background-color: white;
+  margin: -1.3em 8em 0 0;
+  padding: 2px 0 2px 10px;
+  transform: rotate(-15deg);
+  width: 70%;
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+}
+
+#poupee_russe {
+  width: 15em;
+}
+
+#liste_lieux {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30em;
+  background-color: white;
+  width: 30em;
+  margin-top: -1em;
+}
+
+#liste_lieux li {
+  list-style-type: none;
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+}
+
+#liste_lieux ul {
+  padding-left: 3em;
+}
+
+#title_lieux {
+  background-color: black;
+  width: 25em;
+  margin: -5em 0 0 40em;
+  transform: rotate(7deg);
+}
+
+#lieuxincon {
+  text-align: right;
+  font-family: "russie";
+  padding-right: 1em;
+  font-size: 25px;
+  color: white;
+}
+
+#liste_lieux i {
+  padding-right: 5px;
+  font-size: 8px;
+}
+
+#russie a {
+  color: black;
+  text-decoration: none;
+}
+
+#paragraphe_russie a,
+#text-tourism a {
+  font-weight: bold;
+  color: rgb(25, 90, 90);
+  font-size: 16px;
+}
+
+#russie a:hover {
+  text-decoration: underline;
+}
+
+#voyage_emma {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#moscou_all {
+  display: flex;
+  flex-direction: row;
+}
+
+/* GALERIE PHOTO*/
+
+#galerie {
+  background-color: #5f0f0b;
+  width: 60%;
+  height: 25em;
+  display: flex;
+  flex-direction: row;
+}
+
+.liste_galerie .avatar {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  list-style: none;
+}
+
+.liste_galerie .avatar a {
+  display: block;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: 0px solid rgba(0, 0, 0, 0.7);
+  transition-property: width, height, margin, z-index, border;
+  transition-duration: 0.4s;
+}
+
+.liste_galerie .avatar a:hover {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: -56px;
+  margin-left: -56px;
+  z-index: 100;
+  border: 6px solid rgba(0, 0, 0, 0.7);
+}
+
+.liste_galerie .avatar a img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 20;
+  transition-property: width, height, z-index;
+  transition-duration: 0.4s;
+}
+
+.liste_galerie .avatar a:hover img {
+  width: 200px;
+  height: 200px;
+  z-index: 100;
+}
+
+#liste_galerie1,
+#liste_galerie2,
+#liste_galerie3,
+#liste_galerie4 {
+  margin-top: 2.5em;
+}
+
+#liste_galerie4 {
+  padding-right: 3em;
+}
+
+#moscou_all h1 {
+  font-family: "propagande";
+  margin: 3em 0 0 2em;
+}
+
+#moscou_all p,
+#video p {
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+  margin-left: 3em;
+  margin-right: 3em;
+  line-height: 1.5em;
+}
+
+#voyage_emma h3,
+#video h3 {
+  font-family: "algorie";
+  margin: 0.5em 2em 0 2em;
+  font-size: 1.3em;
+}
+
+.right {
+  text-align: right;
+}
+
+#video h4 {
+  font-family: "algorie";
+  font-size: 1.3em;
+  color: white;
+  background-color: #5f0f0b;
+  width: 7em;
+  height: 2em;
+  margin-left: 3em;
+  border-radius: 10px;
+  padding: 0.5em 0 0 1em;
+}
+
+#video a {
+  color: white;
+  text-decoration: none;
+}
+
+#video h4:hover {
+  background-color: #925552;
+}
+/*CSS VIDEO*/
+
+#video {
+  display: flex;
+  flex-direction: row;
+}
+
+#video_moscou {
+  background-color: rgb(230, 230, 169);
+  width: 70%;
+  height: 25em;
+}
+
+iframe {
+  padding: 3em 2em 0 2em;
+  border: 0;
+}
+/* CSS FOOTER */
+
+footer {
+  background-color: transparent;
+}
+
+#footerussia {
+  width: 100%;
+  height: 20vh;
+  background-color: #be0f06;
+  padding-top: 10px;
+}
+
+#footerussia p {
+  font-family: "russie";
+}
+
+#footerussia #lien_contact {
+  font-family: "russie";
+}
+
+#footerussia a {
+  font-family: "Courier Prime", monospace;
+  font-size: 15px;
+}
+
+#footerussia a:hover {
+  color: #5f0f0b;
+}
