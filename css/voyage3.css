@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "algorie";
+  src: url("../policerussie/Soviet2e.ttf");
+}
+
+main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff0f0;
+  color: #463333;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23463333' fill-opacity='0.51'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  animation: apparition_main 1000ms linear forwards;
+}
+
+@keyframes apparition_main {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+#presentation_emma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0.5px 2px 3px 0 #463333;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+#carte_pres,
+#identite,
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  height: 100%;
+  margin: 20px 20px;
+}
+
+#portrait_emma {
+  height: 200px;
+  border-radius: 10px;
+}
+
+#carte_pres div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 5px 5px 0px 7px;
+  width: 100%;
+}
+
+#reseaux i {
+  font-size: 25px;
+  color: #1d5c59;
+}
+
+#identite {
+  width: 45%;
+}
+
+#identite h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3em;
+  height: 100%;
+  font-family: "Permanent Marker", cursive;
+}
+
+#identite p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+#voyages {
+  width: 20%;
+}
+
+#voyages i {
+  padding-right: 8px;
+  font-size: 25px;
+}
+
+#voyages h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  height: 100%;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#voyages li {
+  list-style-type: square;
+  padding: 4px;
+  font-size: 1em;
+}
+
+#voyage_russie {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30em;
+  background-image: url(../img/Emma/photo2.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+#pres_voyages h2 {
+  font-size: 4em;
+  align-self: flex-start;
+  margin: 0.5em 10%;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+#voyage_russie h2 {
+  color: white;
+}
+
+#russie {
+  background-color: white;
+  width: 25%;
+  margin: 4em 0 0 3em;
+  border-radius: 10px;
+  box-shadow: 0.5px 2px 3px 0 #463333;
+}
+
+#russie h4 {
+  font-family: "algorie";
+  font-size: 1.3em;
+  color: white;
+  background-color: #5f0f0b;
+  width: 7em;
+  height: 2em;
+  margin-left: 3em;
+  border-radius: 10px;
+  padding: 0.5em 0 0 1em;
+  margin-left: 4em;
+}
+
+#russie a {
+  color: white;
+  text-decoration: none;
+}
+
+#russie h4:hover {
+  background-color: #925552;
+}
+
+#russie h1 {
+  font-family: "algorie";
+  padding-left: 2em;
+}
+
+#russie p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  padding: 0 1em 0 1em;
+  text-align: center;
+  line-height: 1.6em;
+}
