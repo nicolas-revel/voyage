@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "algorie";
+  src: url("../policerussie/Soviet2e.ttf");
+}
+
 main {
   margin: 0;
   display: flex;
@@ -122,36 +127,49 @@ main {
   letter-spacing: 10px;
 }
 
-#container_egypt {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+#voyage_russie h2 {
+  color: white;
 }
 
-#container_egypt img {
-  height: 300px;
+#russie {
+  background-color: white;
+  width: 25%;
+  margin: 4em 0 0 3em;
   border-radius: 10px;
+  box-shadow: 0.5px 2px 3px 0 #463333;
 }
 
-#container_egypt div {
-  width: 45%;
-  margin: 1.5em;
-  font-size: 2em;
-  letter-spacing: 3px;
-  font-family: "Dosis", sans-serif;
+#russie h4 {
+  font-family: "algorie";
+  font-size: 1.3em;
+  color: white;
+  background-color: #5f0f0b;
+  width: 7em;
+  height: 2em;
+  margin-left: 3em;
+  border-radius: 10px;
+  padding: 0.5em 0 0 1em;
+  margin-left: 4em;
 }
 
-#container_egypt a {
+#russie a {
+  color: white;
   text-decoration: none;
-  color: #463333;
-  background: linear-gradient(to left, transparent 50%, #ebd4d4 50%) right;
-  background-size: 230%;
-  transition: 400ms ease-in-out;
-  padding: 10px;
-  border-radius: 5px;
 }
 
-#container_egypt a:hover {
-  background-position: left;
+#russie h4:hover {
+  background-color: #925552;
+}
+
+#russie h1 {
+  font-family: "algorie";
+  padding-left: 2em;
+}
+
+#russie p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  padding: 0 1em 0 1em;
+  text-align: center;
+  line-height: 1.6em;
 }
