@@ -1,207 +1,206 @@
-#header7{
-width: 100vw;
-height: 25vh;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: flex-end;
-background-color: #c73339;
-background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");}
+.header7 {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #c73339;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
 
-#header7 h1{
-    padding-left: 45px;
-    font-family: 'Staatliches', cursive;
+.header7 h1 {
+  padding-left: 45px;
+  font-family: "Staatliches", cursive;
 }
-.dropdown-contentf{
-    display: none;
-    position: absolute;
-    top: 1.2em;
-    left: -20px;
-    background-color: #c73339;
-    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-    min-width: 100%;
-    z-index: 5;
-    font-family: 'Staatliches', cursive;
+.dropdown-contentf {
+  display: none;
+  position: absolute;
+  top: 1.2em;
+  left: -20px;
+  background-color: #c73339;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  min-width: 100%;
+  z-index: 5;
+  font-family: "Staatliches", cursive;
 }
-.dropdownf{
-    display: inline-block;
-    position: relative;
-    font-family: 'Staatliches', cursive;
+.dropdownf {
+  display: inline-block;
+  position: relative;
+  font-family: "Staatliches", cursive;
 }
 
 .dropdown-contentf a {
-    background-color: #c73339;
-    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-    width: 100%;
-    padding: 0.5em 20px;
-    text-decoration: none;
-    display: block;
-    color: white;
-    font-family: 'Staatliches', cursive;
+  background-color: #c73339;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  width: 100%;
+  padding: 0.5em 20px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-family: "Staatliches", cursive;
 }
 
 .dropdownf:hover .dropdown-contentf {
-    display: block;
-  }
-  
-  .flag_serbie{
-      display: flex;
-flex-direction: column;
-justify-content: center;}
+  display: block;
+}
+
+.flag_serbie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 #header7 nav li,
 #header7 #link_contact {
-    background-color: #c73339;
-    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  background-color: #c73339;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
   background-size: 230%;
   transition: 400ms ease-in-out;
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
 }
 
 #header7 nav li:hover,
 #header7 #link_contact:hover {
   background-position: left;
-  color: white;}
-
-.sommaire{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #c73339;
-    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  color: white;
 }
 
-.sommaire a{
-    text-decoration: none;
-    font-family: 'Staatliches', cursive;
-    color: white;
+.sommaire {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c73339;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
 }
 
-.img_food{
-width: 20vw;
-margin-left: 40% ;
+.sommaire a {
+  text-decoration: none;
+  font-family: "Staatliches", cursive;
+  color: white;
 }
 
-#serbie_food p{
-    text-align: center;
-}
-#serbie_food{
-    margin: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.titre_food{
-    font-size: 25px;
-    font-family: 'Staatliches', cursive;
-}
-h2{
-    font-family: 'Staatliches', cursive;
-    border: solid;
-    width: 99.6%;
-    margin: 0px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 5px;
-    border-color:#c73339 ;
-    margin: 20px 0px;
+.img_food {
+  width: 20vw;
+  margin-left: 40%;
 }
 
-#banner1{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Severni_bedem1.jpg/1024px-Severni_bedem1.jpg) ;
-    background-size: cover;
-    align-items: center;
-    background-position: right 50% top 30%;
-    height: 200px;
-    font-family: 'Acme', sans-serif;
-    color: white;
-    font-size: 50px;
+#serbie_food p {
+  text-align: center;
+}
+#serbie_food {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titre_food {
+  font-size: 25px;
+  font-family: "Staatliches", cursive;
+}
+h2 {
+  font-family: "Staatliches", cursive;
+  border: solid;
+  width: 99.6%;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+  border-color: #c73339;
+  margin: 20px 0px;
 }
 
-#banner2{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Topcider2.jpg/1024px-Topcider2.jpg) ;
-    background-size: cover;
-    align-items: center;
-    background-position: bottom 40% right 50%;
-    height: 200px;
-    font-family: 'Acme', sans-serif;
-    color: white;
-    font-size: 50px;
+#banner1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Severni_bedem1.jpg/1024px-Severni_bedem1.jpg);
+  background-size: cover;
+  align-items: center;
+  background-position: right 50% top 30%;
+  height: 200px;
+  font-family: "Acme", sans-serif;
+  color: white;
+  font-size: 50px;
 }
 
-#banner3{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/40/Skadarlija_street%2C_Belgrade%2C_Serbia.jpg) ;
-    background-size: cover;
-    align-items: center;
-    background-position: bottom 40% right 50%;
-    height: 200px;
-    font-family: 'Acme', sans-serif;
-    color: white;
-    font-size: 50px;
+#banner2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Topcider2.jpg/1024px-Topcider2.jpg);
+  background-size: cover;
+  align-items: center;
+  background-position: bottom 40% right 50%;
+  height: 200px;
+  font-family: "Acme", sans-serif;
+  color: white;
+  font-size: 50px;
 }
 
-#banner4{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gibraltar_Na_Dunavu.JPG/1920px-Gibraltar_Na_Dunavu.JPG) ;
-    background-size: cover;
-    align-items: center;
-    background-position: top 40% right 50%;
-    height: 200px;
-    font-family: 'Acme', sans-serif;
-    color: white;
-    font-size: 50px;
-}
-main{
-    font-family: 'Comfortaa', cursive;
-}
-#link_serbie{
-    display: flex;
-    justify-content: space-around;
+#banner3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/40/Skadarlija_street%2C_Belgrade%2C_Serbia.jpg);
+  background-size: cover;
+  align-items: center;
+  background-position: bottom 40% right 50%;
+  height: 200px;
+  font-family: "Acme", sans-serif;
+  color: white;
+  font-size: 50px;
 }
 
-#link_serbie a{
-    text-decoration: none;
-    margin-bottom: 20px;
-    color:#c73339;
+#banner4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gibraltar_Na_Dunavu.JPG/1920px-Gibraltar_Na_Dunavu.JPG);
+  background-size: cover;
+  align-items: center;
+  background-position: top 40% right 50%;
+  height: 200px;
+  font-family: "Acme", sans-serif;
+  color: white;
+  font-size: 50px;
 }
-#link_serbie a:hover{
-    background-color: #c73339 ;
-    color: white;
-    transition: 900ms;
+main {
+  font-family: "Comfortaa", cursive;
 }
-body{
-    overflow-x: hidden;
+#link_serbie {
+  display: flex;
+  justify-content: space-around;
+}
+
+#link_serbie a {
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #c73339;
+}
+#link_serbie a:hover {
+  background-color: #c73339;
+  color: white;
+  transition: 900ms;
+}
+body {
+  overflow-x: hidden;
 }
 #footerf {
-    height: 130px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #c73339;
-    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-    font-family: 'Staatliches', cursive;
-  }
-
-#visit_serbie p{
-    text-align: center;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #c73339;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  font-family: "Staatliches", cursive;
 }
 
-
-
-
+#visit_serbie p {
+  text-align: center;
+}
