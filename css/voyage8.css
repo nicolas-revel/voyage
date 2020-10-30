@@ -2,6 +2,21 @@ body {
   margin: 0;
 }
 
+main {
+  font-family: "Spartan", sans-serif;
+  animation: apparition_main 1500ms linear forwards;
+}
+
+@keyframes apparition_main {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 #entete_egypt {
   margin: 0;
   display: flex;
@@ -49,7 +64,6 @@ body {
   margin-left: 10%;
   margin-top: 5%;
   align-self: flex-start;
-  font-family: "Spartan", sans-serif;
   font-weight: 500;
   font-size: 2.5em;
 }
@@ -64,7 +78,6 @@ body {
   font-weight: 200;
   line-height: 2em;
   font-size: 1.2em;
-  font-family: "Spartan", sans-serif;
 }
 
 .para_contenu img {
@@ -75,8 +88,123 @@ body {
   width: 60%;
 }
 
+#infos_résumés {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebd4d4;
+  color: #463333;
+}
+
+#infos_résumés h2 {
+  align-self: flex-start;
+  margin: 3% 10%;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+#infos_résumés div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  width: 95%;
+  font-weight: 300;
+}
+
+#infos_résumés table {
+  width: 50%;
+}
+
+#infos_résumés ul {
+  width: 45%;
+}
+
+#infos_résumés li {
+  margin: 1.7em 0 0 0;
+  font-size: 1.5em;
+}
+
 #infos_résumés table,
 td {
   border: 3px solid #835858;
   border-collapse: collapse;
+}
+
+#infos_résumés table td {
+  height: 2.5em;
+}
+
+#nil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff0f0;
+}
+
+#nil h2 {
+  margin: 0;
+  height: 3em;
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 1.9em;
+  background-image: url(../img/egypt/egyptnil.jpg);
+  background-size: cover;
+  background-position: right 50% top 95%;
+  font-weight: 400;
+  color: #ebd4d4;
+}
+
+#nil p {
+  width: 85%;
+  margin: 2em 0;
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #463333;
+  font-weight: 200;
+}
+
+#mer_rouge {
+  height: 33em;
+  background-image: url(../img/egypt/egyptredsea.jpg);
+  background-size: cover;
+  background-position: right 50% top 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  position: relative;
+}
+
+#mer_rouge p {
+  position: absolute;
+  width: 40%;
+  right: 5%;
+  background-color: #fff0f0d8;
+  padding: 20px;
+  font-size: 1.4em;
+  line-height: 2em;
+  border-radius: 10px;
+  color: #463333;
+  font-weight: 300;
+}
+
+#mer_rouge h2 {
+  margin-left: 3%;
+  font-size: 3.5em;
+  font-weight: 500;
+  color: #ebd4d4;
+  margin-bottom: 3em;
+}
+
+#mer_rouge h3 {
+  margin-left: 10%;
+  font-size: 2em;
+  font-weight: 400;
+  color: #ebd4d4;
 }
