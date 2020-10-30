@@ -23,7 +23,7 @@ header img {
   display: none;
 }
 
-#headerrussia {
+.headerrussia {
   display: flex;
   flex-direction: row;
   height: 80vh;
@@ -42,25 +42,25 @@ header img {
   margin-left: 40em;
 }
 
-#headerrussia nav {
+.headerrussia nav {
   margin: 3em 0 0 0;
   width: 45%;
   font-family: "russie";
 }
 
-#headerrussia nav span {
+.headerrussia nav span {
   color: white;
   font-size: 18px;
   font-family: "russie";
 }
 
-#headerrussia nav li {
+.headerrussia nav li {
   padding: 1em 0 1em 0;
   font-size: 18px;
   margin: 0 20px 0 20px;
 }
 
-#headerrussia nav i {
+.headerrussia nav i {
   font-size: 0.4em;
 }
 
@@ -69,15 +69,15 @@ header img {
   color: white;
 }
 
-#headerrussia nav li,
-#headerrussia #link_contact #headerrussia #link_acceuil {
+.headerrussia nav li,
+.headerrussia #link_contact .headerrussia #link_acceuil {
   background: linear-gradient(to left, transparent 50%, #5f0f0b 50%) right;
   background-size: 300%;
   transition: 400ms ease-in-out;
 }
 
-#headerrussia nav li:hover,
-#headerrussia #link_contact:hover #headerrussia #link_accueil:hover {
+.headerrussia nav li:hover,
+.headerrussia #link_contact:hover .headerrussia #link_accueil:hover {
   background-position: left;
   color: white;
 }
